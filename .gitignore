@@ -1,0 +1,27 @@
+# Runtime and generated files
+paper.jar
+*.jar
+libraries/
+versions/
+cache/
+logs/
+crash-reports/
+world/
+world_nether/
+world_the_end/
+plugins/**/data/
+plugins/**/logs/
+*.log
+
+# Local secrets and backups
+.env
+*.env
+*.bak
+backups/*
+!backups/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
